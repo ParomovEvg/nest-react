@@ -4,6 +4,7 @@ import { AppService } from './app.service';
 import { Env } from './Env';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { AuthModule } from '../web-interface/auth/auth.module';
 
 @Module({
   imports: [
@@ -17,11 +18,12 @@ import { TypeOrmModule } from '@nestjs/typeorm';
         password: configService.get('DB_PASSWORD'),
         database: configService.get<any>('DB_DATABASE_NAME'),
         autoLoadEntities: true,
-        entities: [__dirname + '/**/*.entity{.ts,.js}'],
+        entities: [__dirname + '/**/*.entities{.ts,.js}'],
         synchronize: true,
       }),
       inject: [ConfigService],
     }),
+    AuthModule,
   ],
   controllers: [AppController],
   providers: [AppService],

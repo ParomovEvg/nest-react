@@ -20,34 +20,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eca99db8-8768-4726-a71e-a2c32f0d4c68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/Env.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/user/user.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/user/user.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/user/user.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/user/user.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/PathServices/PathService/PathService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/PathServices/PathService/PathServiceError.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/PathServices/UserApiPathService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/dto/UserDto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/path/PathVarsService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/path/pathParamsArray.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/types/IdType.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/nest-react.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nest-react.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/entities/user/password/password.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/entities/user/password/password.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/entities/user/password/password.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/entities/user/user.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/entities/user/user.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/entities/user/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/error/NotFound.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/ports/in/auth/create-user.use-case/create-user.command.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/ports/in/auth/create-user.use-case/create-user.error.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/ports/in/auth/create-user.use-case/create-user.use-case.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/ports/in/auth/get-all-users.query/get-all-users.query.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/ports/out/user/load-all-users.port.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/ports/out/user/load-user-by-email.port.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/ports/out/user/load-user-by-name.port.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/ports/out/user/save-new-user.port.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/services/auth/__test__/create-user.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/services/auth/__test__/get-all-users.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/services/auth/create-user.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/services/auth/get-all-users.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/modules/types/EntityMapper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/modules/user-storage/password/password.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/modules/user-storage/password/password.mapper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/modules/user-storage/user/user.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/modules/user-storage/user/user.mapper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/web-interface/auth/auth.mapper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/PathServices/api/AuthApiPathService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/dto/auth/CreateAccountReq.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/dto/auth/GetAllUsersRes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/webpack.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/app.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/app.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/app.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.build.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.build.tsbuildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/Env.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/root/Env.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/app.controller.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/root/app.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/root/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/app.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/root/app.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/test/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/test/jest-e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/PathServices/PathService/PathService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/PathServices/PathService/PathService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.build.tsbuildinfo" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -79,7 +95,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lib/react-hook-di" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -89,61 +105,106 @@
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v14.13.0/bin/node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="node" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/domain/services/auth/__test__" />
+      <recent name="$PROJECT_DIR$/src/domain/ports/out/auth" />
       <recent name="$PROJECT_DIR$/src/server" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/shared/dto/user" />
-      <recent name="$PROJECT_DIR$/src/shared/PathServices/PathService" />
-      <recent name="$PROJECT_DIR$/src/shared" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="\\wsl$\Ubuntu\home\paromov\dev\nest-react\src\client" />
+      <recent name="$PROJECT_DIR$/src/server/root" />
+      <recent name="$PROJECT_DIR$/src/server/modules" />
+      <recent name="$PROJECT_DIR$/src/server/web-interface" />
+      <recent name="$PROJECT_DIR$/src/server" />
+      <recent name="$PROJECT_DIR$/src/server/auth" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build:client:dev">
-    <configuration name="docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="docker-compose.yaml" />
-        </settings>
-      </deployment>
+  <component name="RunManager" selected="Jest.Get All Users service">
+    <configuration name="Get All Users service" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/domain/services/auth/__test__/get-all-users.service.spec.ts" />
+      <test-names>
+        <test-name value="Get All Users service" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="build:client" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build:client" />
-      </scripts>
+    <configuration name="Password entities tests.play" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
       <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/domain/entities/user/password/password.spec.ts" />
+      <test-names>
+        <test-name value="Password entities tests" />
+        <test-name value="play" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="build:client:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build:client:dev" />
-      </scripts>
+    <configuration name="create user service test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
       <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/domain/services/auth/__test__/createUserService.spec.ts" />
+      <test-names>
+        <test-name value="create user service test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="user test.dto test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/domain/entities/user/user.spec.ts" />
+      <test-names>
+        <test-name value="user test" />
+        <test-name value="dto test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="user test.hey" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/domain/entities/user/user.spec.ts" />
+      <test-names>
+        <test-name value="user test" />
+        <test-name value="hey" />
+      </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build:client:dev" />
-        <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
-        <item itemvalue="npm.build:client" />
+        <item itemvalue="Jest.Get All Users service" />
+        <item itemvalue="Jest.create user service test" />
+        <item itemvalue="Jest.user test.dto test" />
+        <item itemvalue="Jest.user test.hey" />
+        <item itemvalue="Jest.Password entities tests.play" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +222,9 @@
       <workItem from="1601974846874" duration="129000" />
       <workItem from="1602015717426" duration="55000" />
       <workItem from="1602166079778" duration="1754000" />
-      <workItem from="1602880682395" duration="16873000" />
+      <workItem from="1602880682395" duration="56863000" />
+      <workItem from="1603280557678" duration="1010000" />
+      <workItem from="1603283265660" duration="605000" />
     </task>
     <servers />
   </component>
@@ -178,6 +241,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="621" y="290" width="644" height="558" key="#ESLint" timestamp="1602947282774">
@@ -185,44 +249,126 @@
     </state>
     <state x="2194" y="-119" width="641" height="478" key="#ESLint/0.0.1366.728/1366.-531.1920.1040@1366.-531.1920.1040" timestamp="1601926276393" />
     <state x="621" y="290" width="644" height="558" key="#ESLint/0.0.1440.848@0.0.1440.848" timestamp="1602947282774" />
-    <state x="554" y="225" key="FileChooserDialogImpl" timestamp="1602887516943">
+    <state x="533" y="143" key="#com.intellij.ide.util.MemberChooser" timestamp="1603096486225">
       <screen x="0" y="0" width="1440" height="848" />
+    </state>
+    <state x="533" y="143" key="#com.intellij.ide.util.MemberChooser/0.0.1440.848@0.0.1440.848" timestamp="1603096486225" />
+    <state x="458" y="172" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603094310688">
+      <screen x="0" y="0" width="1440" height="848" />
+    </state>
+    <state x="458" y="172" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.848@0.0.1440.848" timestamp="1603094310688" />
+    <state x="739" y="287" key="FileChooserDialogImpl" timestamp="1603284224525">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="2106" y="-256" key="FileChooserDialogImpl/0.0.1366.728/1366.-531.1920.1040@1366.-531.1920.1040" timestamp="1601930119977" />
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602015770533" />
     <state x="554" y="225" key="FileChooserDialogImpl/0.0.1440.848@0.0.1440.848" timestamp="1602887516943" />
     <state x="2899" y="286" key="FileChooserDialogImpl/0.350.2160.1440/2160.0.1920.1080@2160.0.1920.1080" timestamp="1602168479981" />
-    <state width="1899" height="547" key="GridCell.Tab.0.bottom" timestamp="1601928738151">
-      <screen x="1366" y="-531" width="1920" height="1040" />
+    <state x="739" y="287" key="FileChooserDialogImpl/233.1182.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1603284224525" />
+    <state width="1416" height="297" key="GridCell.Tab.0.bottom" timestamp="1603096655721">
+      <screen x="0" y="0" width="1440" height="848" />
     </state>
     <state width="1899" height="547" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-531.1920.1040@1366.-531.1920.1040" timestamp="1601928738151" />
-    <state width="1899" height="547" key="GridCell.Tab.0.center" timestamp="1601928738150">
-      <screen x="1366" y="-531" width="1920" height="1040" />
+    <state width="1416" height="297" key="GridCell.Tab.0.bottom/0.0.1440.848@0.0.1440.848" timestamp="1603096655721" />
+    <state width="1896" height="353" key="GridCell.Tab.0.bottom/0.0.1920.2030@0.0.1920.2030" timestamp="1603031653093" />
+    <state width="1416" height="297" key="GridCell.Tab.0.center" timestamp="1603096655721">
+      <screen x="0" y="0" width="1440" height="848" />
     </state>
     <state width="1899" height="547" key="GridCell.Tab.0.center/0.0.1366.728/1366.-531.1920.1040@1366.-531.1920.1040" timestamp="1601928738150" />
-    <state width="1899" height="547" key="GridCell.Tab.0.left" timestamp="1601928738150">
-      <screen x="1366" y="-531" width="1920" height="1040" />
+    <state width="1416" height="297" key="GridCell.Tab.0.center/0.0.1440.848@0.0.1440.848" timestamp="1603096655720" />
+    <state width="1896" height="353" key="GridCell.Tab.0.center/0.0.1920.2030@0.0.1920.2030" timestamp="1603031653093" />
+    <state width="1416" height="297" key="GridCell.Tab.0.left" timestamp="1603096655720">
+      <screen x="0" y="0" width="1440" height="848" />
     </state>
     <state width="1899" height="547" key="GridCell.Tab.0.left/0.0.1366.728/1366.-531.1920.1040@1366.-531.1920.1040" timestamp="1601928738150" />
-    <state width="1899" height="547" key="GridCell.Tab.0.right" timestamp="1601928738151">
-      <screen x="1366" y="-531" width="1920" height="1040" />
+    <state width="1416" height="297" key="GridCell.Tab.0.left/0.0.1440.848@0.0.1440.848" timestamp="1603096655720" />
+    <state width="1896" height="353" key="GridCell.Tab.0.left/0.0.1920.2030@0.0.1920.2030" timestamp="1603031653092" />
+    <state width="1416" height="297" key="GridCell.Tab.0.right" timestamp="1603096655721">
+      <screen x="0" y="0" width="1440" height="848" />
     </state>
     <state width="1899" height="547" key="GridCell.Tab.0.right/0.0.1366.728/1366.-531.1920.1040@1366.-531.1920.1040" timestamp="1601928738151" />
-    <state x="461" y="285" key="SettingsEditor" timestamp="1602966886525">
+    <state width="1416" height="297" key="GridCell.Tab.0.right/0.0.1440.848@0.0.1440.848" timestamp="1603096655721" />
+    <state width="1896" height="353" key="GridCell.Tab.0.right/0.0.1920.2030@0.0.1920.2030" timestamp="1603031653093" />
+    <state width="1416" height="260" key="GridCell.Tab.1.bottom" timestamp="1603046771007">
+      <screen x="0" y="0" width="1440" height="848" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.1.bottom/0.0.1440.848@0.0.1440.848" timestamp="1603046771007" />
+    <state width="1896" height="353" key="GridCell.Tab.1.bottom/0.0.1920.2030@0.0.1920.2030" timestamp="1603031653094" />
+    <state width="1416" height="260" key="GridCell.Tab.1.center" timestamp="1603046771006">
+      <screen x="0" y="0" width="1440" height="848" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.1.center/0.0.1440.848@0.0.1440.848" timestamp="1603046771006" />
+    <state width="1896" height="353" key="GridCell.Tab.1.center/0.0.1920.2030@0.0.1920.2030" timestamp="1603031653093" />
+    <state width="1416" height="260" key="GridCell.Tab.1.left" timestamp="1603046771006">
+      <screen x="0" y="0" width="1440" height="848" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.1.left/0.0.1440.848@0.0.1440.848" timestamp="1603046771006" />
+    <state width="1896" height="353" key="GridCell.Tab.1.left/0.0.1920.2030@0.0.1920.2030" timestamp="1603031653093" />
+    <state width="1416" height="260" key="GridCell.Tab.1.right" timestamp="1603046771006">
+      <screen x="0" y="0" width="1440" height="848" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.1.right/0.0.1440.848@0.0.1440.848" timestamp="1603046771006" />
+    <state width="1896" height="353" key="GridCell.Tab.1.right/0.0.1920.2030@0.0.1920.2030" timestamp="1603031653094" />
+    <state width="1416" height="260" key="GridCell.Tab.2.bottom" timestamp="1603046771008">
+      <screen x="0" y="0" width="1440" height="848" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.2.bottom/0.0.1440.848@0.0.1440.848" timestamp="1603046771008" />
+    <state width="1896" height="353" key="GridCell.Tab.2.bottom/0.0.1920.2030@0.0.1920.2030" timestamp="1603031653094" />
+    <state width="1416" height="260" key="GridCell.Tab.2.center" timestamp="1603046771007">
+      <screen x="0" y="0" width="1440" height="848" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.2.center/0.0.1440.848@0.0.1440.848" timestamp="1603046771007" />
+    <state width="1896" height="353" key="GridCell.Tab.2.center/0.0.1920.2030@0.0.1920.2030" timestamp="1603031653094" />
+    <state width="1416" height="260" key="GridCell.Tab.2.left" timestamp="1603046771007">
+      <screen x="0" y="0" width="1440" height="848" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.2.left/0.0.1440.848@0.0.1440.848" timestamp="1603046771007" />
+    <state width="1896" height="353" key="GridCell.Tab.2.left/0.0.1920.2030@0.0.1920.2030" timestamp="1603031653094" />
+    <state width="1416" height="260" key="GridCell.Tab.2.right" timestamp="1603046771008">
+      <screen x="0" y="0" width="1440" height="848" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.2.right/0.0.1440.848@0.0.1440.848" timestamp="1603046771008" />
+    <state width="1896" height="353" key="GridCell.Tab.2.right/0.0.1920.2030@0.0.1920.2030" timestamp="1603031653094" />
+    <state width="1416" height="260" key="GridCell.Tab.3.bottom" timestamp="1603046771009">
+      <screen x="0" y="0" width="1440" height="848" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.3.bottom/0.0.1440.848@0.0.1440.848" timestamp="1603046771009" />
+    <state width="1896" height="353" key="GridCell.Tab.3.bottom/0.0.1920.2030@0.0.1920.2030" timestamp="1603031653095" />
+    <state width="1416" height="260" key="GridCell.Tab.3.center" timestamp="1603046771008">
+      <screen x="0" y="0" width="1440" height="848" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.3.center/0.0.1440.848@0.0.1440.848" timestamp="1603046771008" />
+    <state width="1896" height="353" key="GridCell.Tab.3.center/0.0.1920.2030@0.0.1920.2030" timestamp="1603031653095" />
+    <state width="1416" height="260" key="GridCell.Tab.3.left" timestamp="1603046771008">
+      <screen x="0" y="0" width="1440" height="848" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.3.left/0.0.1440.848@0.0.1440.848" timestamp="1603046771008" />
+    <state width="1896" height="353" key="GridCell.Tab.3.left/0.0.1920.2030@0.0.1920.2030" timestamp="1603031653095" />
+    <state width="1416" height="260" key="GridCell.Tab.3.right" timestamp="1603046771009">
+      <screen x="0" y="0" width="1440" height="848" />
+    </state>
+    <state width="1416" height="260" key="GridCell.Tab.3.right/0.0.1440.848@0.0.1440.848" timestamp="1603046771009" />
+    <state width="1896" height="353" key="GridCell.Tab.3.right/0.0.1920.2030@0.0.1920.2030" timestamp="1603031653095" />
+    <state x="461" y="285" key="SettingsEditor" timestamp="1602975967574">
       <screen x="0" y="0" width="1920" height="2030" />
     </state>
     <state x="1827" y="-366" key="SettingsEditor/0.0.1366.728/1366.-531.1920.1040@1366.-531.1920.1040" timestamp="1601926258753" />
     <state x="346" y="119" key="SettingsEditor/0.0.1440.848@0.0.1440.848" timestamp="1602886404038" />
-    <state x="461" y="285" key="SettingsEditor/0.0.1920.2030@0.0.1920.2030" timestamp="1602966886525" />
-    <state x="354" y="62" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602887798191">
+    <state x="461" y="285" key="SettingsEditor/0.0.1920.2030@0.0.1920.2030" timestamp="1602975967574" />
+    <state x="100" y="100" width="1240" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603064338248">
       <screen x="0" y="0" width="1440" height="848" />
     </state>
-    <state x="354" y="62" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.848@0.0.1440.848" timestamp="1602887798191" />
-    <state x="623" y="438" width="896" height="1324" key="search.everywhere.popup" timestamp="1602966866748">
-      <screen x="0" y="0" width="1920" height="2030" />
+    <state x="100" y="100" width="1240" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.848@0.0.1440.848" timestamp="1603064338248" />
+    <state x="354" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603059414936">
+      <screen x="0" y="0" width="1440" height="848" />
+    </state>
+    <state x="354" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.848@0.0.1440.848" timestamp="1603059414936" />
+    <state x="472" y="148" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.2030@0.0.1920.2030" timestamp="1603025483822" />
+    <state x="467" y="183" width="672" height="553" key="search.everywhere.popup" timestamp="1603062852038">
+      <screen x="0" y="0" width="1440" height="848" />
     </state>
     <state x="1989" y="-306" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.-531.1920.1040@1366.-531.1920.1040" timestamp="1601926228357" />
-    <state x="467" y="183" width="672" height="553" key="search.everywhere.popup/0.0.1440.848@0.0.1440.848" timestamp="1602886386248" />
-    <state x="623" y="438" width="896" height="1324" key="search.everywhere.popup/0.0.1920.2030@0.0.1920.2030" timestamp="1602966866748" />
+    <state x="467" y="183" width="672" height="553" key="search.everywhere.popup/0.0.1440.848@0.0.1440.848" timestamp="1603062852038" />
+    <state x="623" y="438" width="896" height="1324" key="search.everywhere.popup/0.0.1920.2030@0.0.1920.2030" timestamp="1602975960922" />
   </component>
 </project>

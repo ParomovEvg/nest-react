@@ -11,20 +11,16 @@ export class PathService {
     this.basePath = basePath;
   }
 
-  getBasePath() {
+  protected getBasePath() {
     return this.basePath;
   }
 
-  withBasePath(url: string) {
-    if (!url.startsWith('/'))
-      throw new PathServiceError('Путь должен начинаться со /');
+  protected withBasePath(url: string) {
+    if (!url.startsWith('/')) throw new PathServiceError('Путь должен начинаться со /');
     return this.basePath + url;
   }
 
-  fillUrlString<T extends Partial<PathParamsStrings>>(
-    urlString: string,
-    vars: T,
-  ) {
+  protected fillUrlString<T extends Partial<PathParamsStrings>>(urlString: string, vars: T) {
     const pathObjects = PathVarsService.getPathParamsStringsObject();
     return PathVarsService.mergePathValuesAndStrings(vars, pathObjects).reduce(
       (url, [string, value]) => url.replace(string, value),
